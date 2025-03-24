@@ -1,0 +1,400 @@
+body {
+    font-family: 'Karla Regular'spot;
+    background-color: #FFF3E1;
+    margin: 10;
+    padding:10;
+}
+
+header {
+	background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: white;
+
+}
+
+main {
+    padding: 30px;
+}
+
+
+nav button {
+    background-color: #FFF3E1;
+    border:2px solid #B73C58;
+    color: #F5879F;
+    padding: 10px 12px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+	font-size: 18px;
+	font-family: "Spot Normal", spot;
+	letter-spacing: 2.5px;
+}
+
+nav button:hover {
+    background-color: #F5879F;
+    color: white;
+}
+
+.fa-user{
+	color: #F5879F;
+	
+}
+
+#top-cortos,
+#proximos-lanzamientos,
+#Shortfilmaboutlove,#categories{
+    margin-bottom: 30px;
+    text-align: center;
+	letter-spacing: 2.5px;
+
+}
+
+#equipo{
+	text-align: left;
+	align-content: left;
+}
+equipo{
+	text-align: left;
+	align-content: left;
+}
+#top-cortos {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+	letter-spacing: 2.5px;
+}
+
+.top-cortos-img img{
+    border-radius: 10px;
+    background-color: #c4c4c4;
+	letter-spacing: 2.5px;
+	height: 300px;
+	width: auto;
+}
+#row {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 10px; 
+}
+
+.top-cortos-texto h2 {
+
+    color: #F5879F;
+	font-size: 40px;
+	letter-spacing: 2.5px;
+	text-align: center;
+	margin-right: -100px;
+}
+
+#proximos-lanzamientos h2, 
+#equipo h2, #Shortfilmaboutlove
+{
+    text-align: center;
+    background-color: #F5879F;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+	letter-spacing: 2.5px;
+}
+
+.carteles, .imagenes-equipo {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carteles img, .imagenes-equipo img, .imagen-2 img{
+    width: auto;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+	align-content: left
+}
+.imagenes-equipo img{
+	margin-left: -50px; 
+	height: 500px;
+	width: auto;
+}
+.ASFAL-img img{ 
+	width: auto;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+	margin-right: 0px;
+}
+
+footer {
+    background-color: #F5879F;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+	letter-spacing: 2.5px;
+	
+}
+
+.cortos-texto{
+	text-align: center;
+	margin-left: 50px; 
+	margin-right: 50px;
+}
+
+
+#lissa {
+	
+	text-align: center;
+    color: #F5879F;
+    padding: 10px;
+	margin-bottom: 5px
+		
+}
+
+#laluna li{
+	text-align: left;
+	margin-top: 5px
+		
+	
+}
+.fondo{
+	
+	background-color: #F5879F;
+	color: rgba(255,255,255,1.00);
+	border-radius: 0.5pc;
+}
+
+#blank{
+	text-align: center;
+    color: #F5879F;
+    padding: 10px;
+	margin-bottom: 5px;
+	font-size: 24px;
+}
+
+.blank-shore img{
+	height: 700px;
+	
+}
+
+.fondo-blank{
+	background-color: #F5879F;
+	color: rgba(255,255,255,1.00);
+	border-radius: 0.5pc;
+}
+
+#blank li{
+	text-align: left;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+.contacto{
+	align-content: center;
+	margin-left: 500px;
+	padding-bottom: 60px;
+}
+
+#grupos{
+	 
+    gap: 10px;
+	letter-spacing: 2.5px;
+	text-align: center;
+	color: #065C47;
+}
+
+
+#categories{
+	
+	  gap: 10px;
+	letter-spacing: 2.5px;
+	text-align: center;
+	color: #065C47;
+	
+}
+
+.boton-personalizado {
+    background-color: #FFF3E1;
+    border: 2px solid #B73C58;
+    color: #F5879F;
+    padding: 8px 12px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Spot Normal", spot;
+    letter-spacing: 2.5px;
+}
+
+
+.boton-personalizado:hover {
+    background-color: #F5879F;
+    color: white;
+}
+
+.texto-comunidad{
+	
+	text-align: left;
+	margin-bottom: 5px;
+	color: #B73C58;
+	padding-left: 300px;
+	
+	
+	
+	
+}
+
+
+
+.texto-comunidad-02{
+	
+	text-align: left;
+	margin-bottom: 5px;
+	color: #B73C58;
+	padding-left: 300px;
+	padding-right: 300px;
+	
+	
+	
+	
+}
+
+
+.texto-comunidad-03{
+	
+	text-align: left;
+	margin-bottom: 5px;
+	color: #B73C58;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+	
+	
+	
+}
+
+.texto-comunidad-04{
+	
+	text-align: center;
+	margin-bottom: 5px;
+	color: #B73C58;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+
+}
+
+
+
+.top-cortos-texto01 {
+
+    color: #F5879F;
+	font-size: 20px;
+	letter-spacing: 2.5px;
+	text-align: center;
+	
+}
+
+.icon{
+	
+	font-size: 70px;
+    margin-bottom: 10px;
+	
+}
+
+.icon01{
+	
+	font-size: 70px;
+    margin-bottom: 10px;
+	color: rgba(245,135,159,1.00)
+}
+
+
+
+.services {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+	
+}
+
+.service {
+    background:#EDCBCB;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+	
+}
+
+.service:hover {
+    transform: translateY(-5px);
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 10px;
+}
+
+
+.photo {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.photo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.photo img:hover {
+    transform: scale(1.05);
+}
+
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #F5879F;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #EDCBCB;
+}
